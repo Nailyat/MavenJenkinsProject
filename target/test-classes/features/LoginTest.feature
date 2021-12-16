@@ -2,7 +2,7 @@
 @sprint10
 Feature: login validation
 
-
+@Login
   Scenario: valid admin login
    # Given user is navigated to HRMS
     When user enters valid admin username and password

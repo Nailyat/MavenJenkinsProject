@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
         monochrome = true,  // keeps the console output for the cucumber test easily readable by removing all the unreadable characters
 
-        tags = "@contactDetails", // with any tags, there is no needed to put exact feature class in the path
+        tags = "@Login", // with any tags, there is no needed to put exact feature class in the path
 
         plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json", "rerun:target/failed.txt"}
         //plugin - generates report for the execution

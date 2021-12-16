@@ -43,11 +43,11 @@ public class EmployeeSearchSteps extends CommonMethods {
         click(employeeListPage.searchButton);
     }
 
-    @When("user enters valid employee name")
+    /* @When("user enters valid employee name")
     public void user_enters_valid_employee_name() {
         EmployeeListPage employeeListPage = new EmployeeListPage();
         sendText(employeeListPage.employeeNameField, "Sohail");
-    }
+    } */
 
    /* @Then("user see employee information is displayed")
     public void user_see_employee_information_is_displayed() {

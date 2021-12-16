@@ -24,11 +24,6 @@ public class AddEmployeeDetailsSteps extends CommonMethods {
         sendText(employeeListPage.driverLicense, "123456789");
         sendText(employeeListPage.licenseExpDate, "2025-05-05");
         sendText(employeeListPage.personalDOB, "1986-06-12");
-        Select select =new Select(employeeListPage.maritalStatus);
-        select.selectByVisibleText("Married");
-        click(employeeListPage.smokerCheckbox);
-        Select select1 = new Select(employeeListPage.nationality);
-        select1.selectByVisibleText("American");
         sendText(employeeListPage.militaryStatus, "NAVY");
     }
     @Then("user click on save button")
